@@ -6,7 +6,7 @@ local RunService = game:GetService("RunService")
 local UserInputService = game:GetService("UserInputService")
 
 local ALLOWED_QA_USERS = {
-	-- [123456789] = true,
+	 -- ALLOWED_QA_USERS больше нет, доступ открыт всем
 }
 
 local player = Players.LocalPlayer
