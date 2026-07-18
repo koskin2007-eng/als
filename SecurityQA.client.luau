@@ -10,7 +10,7 @@ local ALLOWED_QA_USERS = {
 }
 
 local player = Players.LocalPlayer
-if not RunService:IsStudio() and not ALLOWED_QA_USERS[player.UserId] then
+if not ALLOWED_QA_USERS[player.UserId] then
 	return
 end
 
